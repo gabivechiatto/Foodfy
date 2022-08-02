@@ -1,6 +1,7 @@
 .meal {
   display: flex;
   justify-content: space-between;
+  font-family: 'Noto Sans', sans-serif;
   margin: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #ccc;
@@ -17,6 +18,27 @@
 .price {
   margin-top: 0.25rem;
   font-weight: bold;
-  color: #ad5502;
+  color: #06868a;
   font-size: 1.25rem;
+}
+
+.form {
+  text-align: right;
+}
+
+.form button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #06868a;
+  border: 1px solid #06868a;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.form button:hover,
+.form button:active {
+  background-color: rgba(7, 113, 117, 0.596);
+  border-color: rgba(7, 113, 117, 0.596);
 }

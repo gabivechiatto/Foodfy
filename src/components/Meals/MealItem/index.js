@@ -1,3 +1,4 @@
+import { Input } from '../../Input';
 import classes from './styles.module.css';
 
 export const MealItem = (props) => {
@@ -11,7 +12,20 @@ export const MealItem = (props) => {
         <div className={classes.price}>{price}</div>
       </div>
       <div>
-
+        <form className={classes.form}>
+        <Input
+          label='Amount'
+          input={{
+              id: 'amount_' + props.id,
+              type: 'number',
+              min: '1',
+              max: '5',
+              step: '1',
+              defaultValue: '1',
+          }}
+        />
+          <button>Add</button>
+        </form>
       </div>
     </li>
   )

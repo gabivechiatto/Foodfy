@@ -10,15 +10,14 @@ export const Header = (props) => {
         <h1>Foodfy</h1>
         <div>
           <button type="button" className={classes['cart-button']}>
-            Cart
+            <span className={classes.icon}>
+              <CartIcon/>
+            </span>
+            <span>Your Cart</span>
+            <span className={classes.badge}>
+              3
+            </span>
           </button>
-          <span className={classes.icon}>
-            <CartIcon/>
-          </span>
-          <span>Your Cart</span>
-          <span className={classes.badge}>
-            3
-          </span>
         </div>
       </header>
       <div className={classes['main-image']}>

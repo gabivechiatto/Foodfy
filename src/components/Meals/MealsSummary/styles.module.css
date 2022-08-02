@@ -1,11 +1,13 @@
 .summary {
   text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 2rem;
   max-width: 45rem;
   width: 90%;
   margin: auto;
   margin-top: -10rem;
   position: relative;
-  background-color: #383838;
+  background-color: #5c5c5c;
   color: white;
   border-radius: 14px;
   padding: 1rem;
