@@ -32,16 +32,16 @@
 
 .actions button:hover,
 .actions button:active {
-  background-color: #5a1a01;
-  border-color: #5a1a01;
+  background-color: #f37240;
+  border-color: #f37240;
   color: white;
 }
 
 .actions .button--alt {
-  color: #8a2b06;
+  color: #f37240;
 }
 
 .actions .button {
-  background-color: #8a2b06;
+  background-color: #f37240;
   color: white;
 }

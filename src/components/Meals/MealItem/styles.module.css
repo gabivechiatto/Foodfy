@@ -39,6 +39,5 @@
 
 .form button:hover,
 .form button:active {
-  background-color: rgba(7, 113, 117, 0.596);
-  border-color: rgba(7, 113, 117, 0.596);
+  opacity: 0.9;
 }
