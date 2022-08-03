@@ -9,7 +9,7 @@ export const Header = (props) => {
       <header className={classes.header}>
         <h1>Foodfy</h1>
         <div>
-          <button type="button" className={classes['cart-button']}>
+          <button type="button" className={classes['cart-button']} onClick={props.onShow}>
             <span className={classes.icon}>
               <CartIcon/>
             </span>
