@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import mealsImg from '../../assets/meals.jpg';
 import { CartIcon } from '../../assets/CartIcon';
 import classes from './styles.module.css';
+import CartContext from '../../store/cart-context';
 
 export const Header = (props) => {
+  const cartCtx = useContext(CartContext)
+
+  const numberOfCartItems = cartCtx.items.reduce((currentNumber, item) => {
+    return currentNumber + item.amount
+  }, 0)
+
   return (
     <React.Fragment>
       <header className={classes.header}>
@@ -15,7 +22,7 @@ export const Header = (props) => {
             </span>
             <span>Your Cart</span>
             <span className={classes.badge}>
-              3
+              {numberOfCartItems}
             </span>
           </button>
         </div>
