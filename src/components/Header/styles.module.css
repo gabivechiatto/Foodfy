@@ -34,7 +34,7 @@
   font-family: 'Noto Sans', sans-serif;
   font-size: 1.1rem;
   border: none;
-  background-color: #f37240;
+  background-color: #db5026;
   color: white;
   padding: 0.75rem 3rem;
   display: flex;
@@ -46,7 +46,7 @@
 
 .cart-button:hover,
 .cart-button:active {
-  background-color: #f16027;
+  opacity: 0.9;
 }
 
 .icon {
@@ -62,11 +62,6 @@
   border-radius: 80%;
   margin-left: 1rem;
   font-weight: bold;
-}
-
-.cart-button:hover,
-.cart-button:active {
-  background-color: #f16027;
 }
 
 .bump {
