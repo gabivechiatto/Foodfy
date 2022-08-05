@@ -2,6 +2,7 @@
  
  <div align="center">
   <img src="src/assets/desktop.png" alt="desktop"/> 
+  <img src="src/assets/modal.png" alt="modal"/> 
  </div> 
 
   &#xa0;
